@@ -1,0 +1,35 @@
+.btn-apidrop {
+        font-size: 15px;
+        line-height: 112.5%;
+        -webkit-transition: ease all 0.3s;
+        -o-transition: ease all 0.3s;
+        transition: ease all 0.3s;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        display: inline-block;
+        padding: 5px 10px;
+        color: #ffffff;
+        background: #ff6060;
+        background: -webkit-linear-gradient(top, #ff6060 0%, #f14f4f 100%);
+        background: -webkit-gradient(linear, left top, left bottom, from(#ff6060), to(#f14f4f));
+        background: -o-linear-gradient(top, #ff6060 0%, #f14f4f 100%);
+        background: linear-gradient(to bottom, #ff6060 0%, #f14f4f 100%);
+        opacity: 1;
+        border: 1px solid #f95050;
+        text-decoration: none
+      }
+      .btn-apidrop>span {
+        background: url(https://media.apidrop.com/img/logo-small-btn.png) no-repeat left center;
+        text-transform: none;
+        -webkit-background-size: auto 100%;
+        background-size: auto 100%;
+        padding: 5px 5px 5px 35px;
+        display: block
+      }
+      .btn-apidrop:hover,
+      .btn-apidrop:focus,
+      .btn-apidrop:active {
+        color: #ffffff;
+        opacity: 0.9;
+        text-decoration: none
+		}
